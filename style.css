@@ -5,6 +5,7 @@ body {
     background-image: url(img/360_F_441962415_GBNj3h2juCQ12XFIuSFgdEbv2NudSXmj.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .main-body {
@@ -12,17 +13,13 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 10px;
-    /* Adjust the gap between boxes */
-    padding: 20px;
-    /* Add padding around the boxes */
+    gap: 10px; /* Adjust the gap between boxes */
+    padding: 20px; /* Add padding around the boxes */
 }
 
 .box {
-    flex: 1;
-    /* Each box takes up equal space */
-    max-width: 200px;
-    /* Limit the maximum width of each box */
+    flex: 1; /* Each box takes up equal space */
+    max-width: 200px; /* Limit the maximum width of each box */
 }
 
 .dabba {
@@ -32,14 +29,12 @@ body {
     background-color: rgb(4, 65, 65);
     box-shadow: 5px 5px 5px rgb(120, 120, 120);
     border-radius: 10px;
-    margin: 0 auto;
-    /* Center the boxes horizontally */
+    margin: 0 auto; /* Center the boxes horizontally */
 }
 
 h2 {
     font-family: sans-serif;
-    font-size: 1.5rem;
-    /* Adjust font size */
+    font-size: 1.5rem; /* Adjust font size */
     color: rgb(255, 255, 255);
     font-weight: bold;
     text-align: center;
