@@ -13,12 +13,12 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 10px; /* Adjust the gap between boxes */
+    gap: 100px; /* Adjust the gap between boxes */
     padding: 20px; /* Add padding around the boxes */
 }
 
 .box {
-    flex: 1; /* Each box takes up equal space */
+    flex: 10; /*Each box takes up equal space */
     max-width: 200px; /* Limit the maximum width of each box */
 }
 
