@@ -66,3 +66,12 @@ font-size: 40px;
 color: rgb(255, 255, 255);
 text-shadow: 8px -4px grey;
 }
+
+@media screen and (max-width : 540px) {
+    .head{
+        width: 80%;
+        height: auto !important;
+        margin: auto;
+        text-align: center;
+    }
+}
