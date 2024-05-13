@@ -13,7 +13,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 100px; /* Adjust the gap between boxes */
+    gap: 10px; /* Adjust the gap between boxes */
     padding: 20px; /* Add padding around the boxes */
 }
 
@@ -58,7 +58,8 @@ p {
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-top: 78px;
+    margin-top: 100px;
+    height: auto;
 text-align: center;
 font-family: sans-serif;
 font-weight: bold;
@@ -67,11 +68,53 @@ color: rgb(255, 255, 255);
 text-shadow: 8px -4px grey;
 }
 
-@media screen and (max-width : 540px) {
+@media screen and (max-width : 754px) {
     .head{
-        width: 80%;
+        width: 80% !important;
         height: auto !important;
         margin: auto;
         text-align: center;
+        font-size: 200%;
+    }
+    .dabba{
+        width: 60px;
+        height: 60px;
+    }
+    .dabba p{
+        font-size: 30px;
+    }
+}
+
+
+
+
+@media screen and (max-width : 447px) {
+    .head{
+        width: 80% !important;
+        height: auto !important;
+        margin: auto;
+        text-align: center;
+        font-size: 180%;
+    }
+    .dabba{
+        width: 50px;
+        height: 50px;
+    }
+    .dabba p{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 1rem !important;
+    }
+}
+
+
+@media screen and (max-width : 334px) {
+    .head{
+        width: 80% !important;
+        height: auto !important;
+        margin: auto;
+        text-align: center;
+        font-size: 130%;
     }
 }
