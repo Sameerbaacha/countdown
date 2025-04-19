@@ -1,5 +1,5 @@
 var x = setInterval(function() {
-    var date = new Date("jun 17,2024");
+    var date = new Date("jun 6,2025");
     todaydate = new Date().getTime();
     diff = date - todaydate
     /// for days ////
